@@ -41,15 +41,15 @@
           },
   '';
 
-  keymaps = [
-    {
-      mode = "n";
-      key = "<leader>e";
-      action = ":SidebarNvimToggle<CR>";
-      options = {
-        desc = "Toggle Explorer";
-        silent = true;
-      };
-    }
-  ];
+#  keymaps = [
+#    {
+#      mode = "n";
+#      key = "<leader>e";
+#      action = ":SidebarNvimToggle<CR>";
+#      options = {
+#        desc = "Toggle Explorer";
+#        silent = true;
+#      };
+#    }
+#  ];
 }
